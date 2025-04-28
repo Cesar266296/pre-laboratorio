@@ -1,0 +1,24 @@
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\bin\Debug\Pre Lboratorio.exe.config
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\bin\Debug\Pre Lboratorio.exe
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\bin\Debug\Pre Lboratorio.pdb
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.csproj.AssemblyReference.cache
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Form1.resources
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Properties.Resources.resources
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.csproj.GenerateResource.cache
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.csproj.CoreCompileInputs.cache
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.exe
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.pdb
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Form2.resources
+C:\Users\36597\source\repos\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Form3.resources
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\bin\Debug\Pre Lboratorio.exe.config
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\bin\Debug\Pre Lboratorio.exe
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\bin\Debug\Pre Lboratorio.pdb
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Form1.resources
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Form2.resources
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Form3.resources
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre_Lboratorio.Properties.Resources.resources
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.csproj.GenerateResource.cache
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.exe
+C:\Users\USUARIO\Desktop\Pre Lboratorio\Pre Lboratorio\obj\Debug\Pre Lboratorio.pdb
