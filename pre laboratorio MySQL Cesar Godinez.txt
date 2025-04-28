@@ -1,0 +1,61 @@
+CREATE DATABASE sistema_video_rental;
+USE sistema_video_rental;
+-- Tabla ubicacion
+CREATE TABLE ubicacion (
+    idUbicacion INT(11) NOT NULL AUTO_INCREMENT,
+    Direccion VARCHAR(45),
+    Ciudad VARCHAR(45),
+    Pais VARCHAR(45),
+    PRIMARY KEY (idUbicacion)
+);
+
+-- Tabla usuario
+CREATE TABLE usuario (
+    idUsuario INT(11) NOT NULL AUTO_INCREMENT,
+    Nombre VARCHAR(45),
+    Apellido VARCHAR(45),
+    Edad INT(11),
+    Ubicacion_idUbicacion INT(11) NOT NULL,
+    PRIMARY KEY (idUsuario),
+    FOREIGN KEY (Ubicacion_idUbicacion) REFERENCES ubicacion(idUbicacion)
+);
+
+-- Tabla genero
+CREATE TABLE genero (
+    idGenero INT(11) NOT NULL AUTO_INCREMENT,
+    Nombre VARCHAR(45),
+    PRIMARY KEY (idGenero)
+);
+
+-- Tabla videos
+CREATE TABLE videos (
+    idVideos INT(11) NOT NULL AUTO_INCREMENT,
+    Nombre VARCHAR(45),
+    Duracion INT(11),
+    Descripcion TEXT,
+    Año INT(11),
+    Genero_idGenero INT(11) NOT NULL,
+    PRIMARY KEY (idVideos),
+    FOREIGN KEY (Genero_idGenero) REFERENCES genero(idGenero)
+);
+
+-- Tabla almacen
+CREATE TABLE almacen (
+    idCopiaVideos INT(11) NOT NULL AUTO_INCREMENT,
+    Videos_idVideos INT(11) NOT NULL,
+    Disponible TINYINT(1),
+    PRIMARY KEY (idCopiaVideos),
+    FOREIGN KEY (Videos_idVideos) REFERENCES videos(idVideos)
+);
+
+-- Tabla prestamo
+CREATE TABLE prestamo (
+    idPrestamo INT(11) NOT NULL AUTO_INCREMENT,
+    Fecha_Prestamo DATE,
+    Fecha_Devolucion DATE,
+    Almacen_idCopiaVideos INT(11) NOT NULL,
+    Usuario_idUsuario INT(11) NOT NULL,
+    PRIMARY KEY (idPrestamo),
+    FOREIGN KEY (Almacen_idCopiaVideos) REFERENCES almacen(idCopiaVideos),
+    FOREIGN KEY (Usuario_idUsuario) REFERENCES usuario(idUsuario)
+);
